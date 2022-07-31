@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+#CorpoSobre{
+    display: flex;
+    flex-direction: column;
+}
+#CorpoTop{
+    display: flex;
+    
+    flex-direction: column;
+    align-items: flex-start;
+}
+#CorpoTop h2{
+    margin: 2%;
+    margin-right: 5%;
+   background-color: rgba(240, 248, 255, 0.427);
+   padding: 1%;
+   border-radius: 10px;
+}
+#CorpoButton{
+    display: flex;
+    height: 250px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.Ferramentas{
+    display: flex;
+    justify-content: center;
+    transition: 0.5s;
+    width: 25%;
+    height: 100%;
+    align-items: flex-end;
+    border-radius: 800px;
+   
+}
+#html{
+    background-image: url("../img/html_logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#css{
+    background-image: url("../img/css_logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}#js{
+    background-image: url("../img/java_logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.subtitulo2{
+    background-color: rgb(255, 228, 196);
+    border-radius: 10px;
+}
+.Ferramentas:hover{
+    
+    transform: rotate3d(0, 1, 0, 380deg);
+}
+

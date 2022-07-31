@@ -1,0 +1,58 @@
+
+#corpo4{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 3%;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 40px;
+
+}
+input{
+    border-radius: 5px;
+    border: none;
+}
+
+#imgMeio{
+    width: 20%;
+    height: 300px;
+    background-image: url(../img/login_logo.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.Form{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    font-size: 40%;
+    padding: 1%;
+    background-color: #B79D7C;
+    border-radius: 20px;
+    border-color: black;
+    border-style: solid;
+    font-weight: bold;
+}
+#Centralizar{
+    display: flex;
+    justify-content: center;
+
+}
+#BtnsForm{
+    display: flex;
+}
+.BtnEstilo{
+    cursor: pointer;
+    font-weight: bold;
+    height: 30px;
+    width: 50%;
+    border: none;
+    border-radius: 10px;
+    background-color: #3F4927;
+    color:white;
+    margin: 1%;
+    
+}
+.BtnEstilo:hover{
+    border-style: solid;
+}

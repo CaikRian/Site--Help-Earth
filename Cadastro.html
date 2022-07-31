@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/estilo.css" type="text/css" rel="stylesheet"/>
+    <link href="css/estilo4.css" type="text/css" rel="stylesheet"/>
+
+    <title>Cadastro-Login</title>
+</head>
+<body>
+    
+    <header><a href="index.html"><div id="LogoTipo"></div></a>
+        <div id="Login">
+            <div id="LogoLogin"></div>
+               
+                    <ul id="opções">
+                        <li><a href="Cadastro.html">Entrar/Cadastrar</li></a>
+                    </ul>
+                </div>
+        
+        </header>
+
+        <nav class="nav" id="nav">
+            <ul class="menu" id="menu">
+                
+                
+                <li><a href="Noticias.html">Notícias</a></li>    
+                <li><a href="Sobre.html">Sobre</a></li>
+                <li><a href="Contato.html">Contato</a></li>
+                
+              
+            </ul>
+          </nav>
+          <div id="corpo4" class="corpo"> 
+            <form id="FormLog" class="Form" name="FormLog" action="" method="post">
+                <h1>Login</h1>
+                <br>
+                <label for="emlEmail">*E-mail:</label>
+                <input type="email" name="emlEmail" id="LoginEmail" required>
+                <br>
+                <label for="pwdSenha">*Senha:</label>
+                <input type="password" name="pwdSenha" id="LoginSenha" required>
+                <br>
+                <div id="Centralizar">
+                <input class="BtnEstilo"  type="submit"  value="Entrar">
+            </div>
+            
+            </form>
+            <div id="imgMeio"></div>
+            <form id="FormCad" class="Form" name="FormCad" action="" method="post">
+                <h1>Cadastro</h1>
+                <br>
+                <label for="txtNome">*Nome:</label>
+                <input type="text" name="txtNome" id="txtNome" maxlength="50" required>
+                <br>
+                <label for="emlEmail">*E-mail:</label>
+                <input type="email" name="emlEmail" id="emlEmail" required>
+                <br>
+                <label for="emlEmail">*Confirmar E-mail:</label>
+                <input type="email" name="emlEmail2" id="emlEmail2" required>
+                <br>
+                <label for="pwdSenha">*Senha:</label>
+                <input type="password" name="pwdSenha" id="pwdSenha" required>
+                <br>
+                <label for="pwdSenha">*Confirmar Senha:</label>
+                <input type="password" name="pwdSenha" id="pwdSenha" required>
+                <br>
+                <div class="Agrupar">
+                <label for="dtNasc">Data de Nascimento:</label>
+                <input type="date" name="dtnasc" id="dtNasc" accesskey="D" min="1900-01-01" max="2100-01-01">
+            </div>
+                <br>
+                <div class="Agrupar">
+                <label> Sexo:</label>
+                <input type="radio" name="rdoSexo" id="rdoSexoM" value="M" > Masculino
+                <input type="radio" name="rdoSexo" id="rdoSexoF" value="F" > Feminino
+                <input type="radio" name="rdoSexo" id="rdoSexoO" value="O" > Outro
+                </div>
+                <br>
+                <div class="Agrupar">
+                <label>UF:</label>
+                <select name="cmbUF">
+                <optgroup label="Centro-Oeste">
+                <option value="GO">Goiás</option>
+                <option value="MT">Mato Grosso</option>
+                <option value="MS">Mato Grosso do Sul</option>
+                <option value="DF">Distrito Federal</option>
+                <optgroup label="Norte">
+                <option value="AC">Acre</option>
+                <option value="AM">Amazonas</option>
+                <option value="AL">Amapá</option>
+                <option value="PA">Pará</option>
+                <option value="RO">Rondônia</option>
+                <option value="RR">Roraima</option>
+                <option value="TO">Tocantins</option>
+                <optgroup label="Nordeste">
+                <option value="AL">Alagoas</option>
+                <option value="BA">Bahia</option>
+                <option value="CE">Ceará</option>
+                <option value="MA">Maranhão</option>
+                <option value="PI">Piauí</option>
+                <option value="PE">Pernambuco</option>
+                <option value="PB">Paraíba</option>
+                <option value="RN">Rio Grande do Norte</option>
+                <option value="SE">Sergipe</option>
+                <optgroup label="Sul">
+                <option value="PR">Paraná</option>
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="SC">Santa Catarina</option>
+                <optgroup label="Sudeste">
+                <option value="ES">Espírito Santo</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="SP">São Paulo</option>
+                <option value="" selected>Selecione</option>
+                </select> 
+                </div>
+                <br>
+                <div id="BtnsForm">
+
+                <input class="BtnEstilo" type="reset" value="Apagar"> 
+                <br>
+                <input class="BtnEstilo" type="submit"  value="Cadastrar">
+                </div>
+                
+                </form>
+            </div>
+
+
+          </div>
+
+        <footer>
+            <ul id="contrape">
+            <li><a href="#">Privacidade</li></a>
+            <li><a href="#">Preferências de cookies</li></a>
+            <li><a href="#">Termos de uso</li></a>
+            <li><a href="#">Perguntas frequentes</li></a>
+            
+            </ul>
+            <p>® 2022. Todos os direitos reservados.</p>
+            <p>Site produzido por: Caik Rian</p>
+    
+        
+        
+        </footer>
+
+
+
+</body>
+</html>
